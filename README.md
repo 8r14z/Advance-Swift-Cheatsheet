@@ -1,2 +1,2 @@
-# advanced-swift-cheatsheet
-Advance Swift cheatsheet
+# Advance Swift Cheatsheet
+Working with Swift like pro <3 
