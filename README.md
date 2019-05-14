@@ -1,7 +1,7 @@
 # Advance Swift Cheatsheet
 Working with Swift like pro <3 
 
-### Group all related contants into `enum` over `struct` or `class`
+### Group all related contants into `enum` over `struct`/`class`
 ```swift
 enum Math {
   static let e = 2.718281828459045235360287
