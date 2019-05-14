@@ -1,7 +1,7 @@
 # Advance Swift Cheatsheet
 Working with Swift like pro <3 
 
-#### Group all related contants into Enum 
+### Group all related contants into Enum 
 ```swift
 enum Math {
   static let e = 2.718281828459045235360287
