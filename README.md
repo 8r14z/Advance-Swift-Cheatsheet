@@ -10,3 +10,5 @@ enum Math {
 ```
 > The advantage of using a case-less enumeration is that it can't accidentally be instantiated and works as a pure namespace.
 
+### Decode image in background thread
+> [UIImage Decoding](https://github.com/HoaiAn1/UIImage-JPEGDecoding)
