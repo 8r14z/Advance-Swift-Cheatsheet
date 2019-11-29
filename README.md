@@ -12,3 +12,5 @@ enum Math {
 
 ### Decode image in background thread
 > [UIImage Decoding](https://github.com/HoaiAn1/UIImage-JPEGDecoding)
+
+### Always have raw value for enum when using it as string intedkashjkda
