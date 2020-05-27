@@ -15,7 +15,7 @@ enum Math {
 
 Image should be decoded before setting to UIImageView. `imageView.image = image` this call is running on main thread and under the hood it decodes the image
 
-### 3. Enum should have raw value when using it as placeholder for string
+### 3. Enum should have raw value when using it as placeholder in string
 Without this rawValue, it's using [Mirror](https://developer.apple.com/documentation/swift/mirror) to generate string from enum value. And Mirror operation is expensive. 
 
 ### 4. Class instances are expensive - Structs are cheap
