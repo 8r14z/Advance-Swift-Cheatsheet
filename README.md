@@ -13,6 +13,8 @@ enum Math {
 #### 2. Decode image in background thread
 > [UIImage Decoding](https://github.com/HoaiAn1/UIImage-JPEGDecoding)
 
+Image should be decoded before setting to UIImageView. `imageView.image = image` this call is running on main thread and under the hood it decodes the image
+
 #### 3. Enum should have raw value when using it with placeholder for string
 Without this rawValue, it's using [Mirror](https://developer.apple.com/documentation/swift/mirror) to generate string from enum value. And Mirror operation is expensive. 
 
