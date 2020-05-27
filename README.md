@@ -20,3 +20,8 @@ Without this rawValue, it's using [Mirror](https://developer.apple.com/documenta
 
 ### 4. Class instances are expensive - Structs are cheap
 Need to alocate head and heap alogirthnm is expensive
+
+### 5. Update view when state is updated
+- Modify state of view (view model)
+- Mark the view as dirty by [setNeedsLayout()](https://developer.apple.com/documentation/uikit/uiview/1622601-setneedslayout)
+- Update view layout in [layoutSubviews()](https://developer.apple.com/documentation/uikit/uiview/1622482-layoutsubviews)
