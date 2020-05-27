@@ -29,4 +29,4 @@ Need to alocate head and heap alogirthnm is expensive
 ### 6. Local reasoning
 > Definition: [here](https://en.wikipedia.org/wiki/Logical_reasoning)
 
-Local reasoning is the idea that the reader can make sense of the code directly in front of them, without going on a journey discovering how the code works.
+Local reasoning is a technique that allows consumer of the code can understand it within its scope without knowing about how the rest interacts with it. 
