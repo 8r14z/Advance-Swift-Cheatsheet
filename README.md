@@ -25,3 +25,8 @@ Need to alocate head and heap alogirthnm is expensive
 - Modify state of view (view model)
 - Mark the view as dirty by [setNeedsLayout()](https://developer.apple.com/documentation/uikit/uiview/1622601-setneedslayout)
 - Update view layout in [layoutSubviews()](https://developer.apple.com/documentation/uikit/uiview/1622482-layoutsubviews)
+
+### 6. Local reasoning
+> Definition: [here](https://en.wikipedia.org/wiki/Logical_reasoning)
+
+Local reasoning is the idea that the reader can make sense of the code directly in front of them, without going on a journey discovering how the code works.
