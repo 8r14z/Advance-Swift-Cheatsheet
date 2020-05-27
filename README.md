@@ -1,4 +1,4 @@
-# Advance Swift Cheatsheet
+# Advanced Swift Cheatsheet
 Working with Swift like pro <3 
 
 ### 1. Group all related contants into `enum` over `struct`/`class`
