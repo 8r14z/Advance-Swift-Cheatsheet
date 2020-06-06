@@ -35,10 +35,6 @@ Local reasoning is a technique that allows consumer of the code can understand i
 ### 7. Optional Assigment
 ```swift
 var a: Int? = 10
-// 1
-a = 20
-// 2 
-a? = 20
+a = 20 // assign a value unconditionally 
+a? = 20 // assign if the value of variable is non-nil
 ```
-#1 assign a value unconditionally 
-#2 assign if the value of variable is non-nil
