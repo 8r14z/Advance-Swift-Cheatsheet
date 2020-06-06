@@ -30,3 +30,15 @@ Need to alocate head and heap alogirthnm is expensive
 > Definition: [here](https://en.wikipedia.org/wiki/Logical_reasoning)
 
 Local reasoning is a technique that allows consumer of the code can understand it within its scope without knowing about how the rest interacts with it. 
+
+
+### 7. Optional Assigment
+```swift
+var a: Int? = 10
+// 1
+a = 20
+// 2 
+a? = 20
+```
+#1 assign a value unconditionally 
+#2 assign if the value of variable is non-nil
